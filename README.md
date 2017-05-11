@@ -22,14 +22,14 @@ $ gem install jquery_count_to_rails
 ```
 
 ##Usage
-To include the relevant JQuery library simply add the following to `app/assets/javascripts/application.js` 
+To include the relevant JQuery library simply add the following to `app/assets/javascripts/application.js`
 
     //= require jquery.countTo
-    
+
 Once you've included it, you can use the library in any of your views like so:
 
 ```html
-<span class="timer" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50">222</span>
+<span class="timer" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50">100</span>
 
 <script type="text/javascript">
   $('.timer').countTo();

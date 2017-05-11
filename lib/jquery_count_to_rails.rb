@@ -1,14 +1,14 @@
 module JqueryCountToRails
   if defined? ::Rails
     if ::Rails.version.to_s < '3.1'
-      require 'jquery-countdown-rails/railtie'
+      require 'jquery_count_to_rails/railtie'
     else
-      require 'jquery-countdown-rails/engine'
+      require 'jquery_count_to_rails/engine'
     end
   elsif defined? ::Sprockets
-    require 'jquery-countdown-rails/sprockets'
+    require 'jquery_count_to_rails/sprockets'
   else
-    require 'jquery-countdown-rails/errors/unsupported_platform_error'
+    require 'jquery_count_to_rails/errors/unsupported_platform_error'
     raise UnsupportedPlatformError
   end
 end
