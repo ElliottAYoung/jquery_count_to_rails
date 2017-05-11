@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = JqueryCountToRails::VERSION
   s.authors     = ["ElliottAYoung"]
   s.email       = ["elliott.a.young@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of JqueryCountToRails."
-  s.description = "TODO: Description of JqueryCountToRails."
+  s.homepage    = "https://github.com/ElliottAYoung/jquery_count_to_rails"
+  s.summary     = "A Rails Gem to include the JQuery Plugin for CountTo"
+  s.description = "A Rails Gem to include the JQuery Plugin for CountTo"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
