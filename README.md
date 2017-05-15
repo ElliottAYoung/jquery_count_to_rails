@@ -24,7 +24,7 @@ $ gem install jquery_count_to_rails
 ##Usage
 To include the relevant JQuery library simply add the following to `app/assets/javascripts/application.js`
 
-    //= require jquery.countTo
+    //= require jquery-countTo
 
 Once you've included it, you can use the library in any of your views like so:
 
